@@ -25,7 +25,7 @@ function appendRowToTable(rowData) {
 //http://localhost:3000/sheets-data
 
 function getSheetData() {
-  const url = 'https://attendance-data-1cmha1nuf-aloks-projects-e40f494c.vercel.app/sheets-data';
+  const url = 'https://attendance-data-k6dbgo73q-aloks-projects-e40f494c.vercel.app/sheets-data';
   const request = new Request(url, {
     method: 'GET',
     headers: {
